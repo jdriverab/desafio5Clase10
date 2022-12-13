@@ -1,0 +1,18 @@
+extends index.pug
+
+block content
+
+    h1="Listado de productos"
+
+    ol
+        each val in data
+            li= val
+
+
+
+
+form(action='/')
+
+    input(
+    type='submit'
+    )

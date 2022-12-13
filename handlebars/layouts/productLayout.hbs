@@ -1,0 +1,11 @@
+
+<h3>Listado de productos</h3>
+
+<ol>
+    {{#each data}}
+        <li><p>{{this.id}} - {{this.title}} - {{this.precio}}</p></li>
+    {{/each}}
+</ol>
+
+<form action="/">
+<input type="submit"></form>
